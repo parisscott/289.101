@@ -62,3 +62,7 @@ div{
     font-family: sans-serif;
     padding:6px 20px;
 }
+
+.nav li:last-child{
+    border-right:none;
+}
