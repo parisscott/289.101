@@ -4,7 +4,7 @@
 }
 
 .div {
-    outline: 1px solid yellow;
+    outline: 0px solid red;
 }
 
 .logo {
@@ -29,6 +29,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    overflow: hidden; /*make the div grow to accommodate float child elements */
 }
 
 .nav {
