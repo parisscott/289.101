@@ -53,11 +53,12 @@ div{
 
 .nav ol{
     padding:18px 10px;
+    list-style-type: none;
 }
 
 .nav li{
     border-right:1px solid #D4B364;
-    display bock;
+    display: block;
     float:left;
     font-family: sans-serif;
     padding:6px 20px;
