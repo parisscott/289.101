@@ -1,0 +1,62 @@
+div {
+    outline: 1px solid black;
+}
+
+.container {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: blue;
+    height: 200px;
+    width: 920px;
+}
+
+.logo {
+    background-color: yellow;
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+    float: right;
+}
+
+.submenu {
+    background-color: red;
+    height: 400px;
+    width: 300px;
+    float: left;
+}
+
+.content {
+    background-color: red;
+    height: 400px;
+    width: 620px;
+    float: left;
+}
+
+.smallbox {
+    background-color: yellow;
+    height: 160px;
+    width: 160px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bigbox {
+    background-color: yellow;
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: green;
+    width: 920px;
+    height: 200px;
+    float: left;
+}
