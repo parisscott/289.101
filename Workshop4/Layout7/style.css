@@ -1,0 +1,157 @@
+div {
+    outline: 3px solid black;
+}
+
+.container {
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: blue;
+    height: 70px;
+    width: 920px;
+    float: left;
+}
+
+.yellowheader1 {
+    background-color: yellow;
+    height: 30px;
+    width: 285px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yellowheader2 {
+    background-color: yellow;
+    height: 30px;
+    width: 570px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+    
+.content {
+    background-color: lime;
+    height: 500px;
+    width: 920px;
+    float: left;
+}
+
+.content1 {
+    background-color: red;
+    height: 440px;
+    width: 920px;
+    float: left;
+}
+
+.yellowrectangle1 {
+    background-color: yellow;
+    height: 100px;
+    width: 875px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yellowbox1 {
+    background-color: yellow;
+    height: 278px;
+    width: 278px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.content2 {
+    background-color: blue;
+    height: 775px;
+    width: 920px;
+    float: left;
+}
+
+.yellowrectangle2 {
+    background-color: yellow;
+    height: 60px;
+    width: 875px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yellowbox2 {
+    background-color: yellow;
+    height: 203px;
+    width: 203px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.content3 {
+    background-color: lime;
+    height: 565px;
+    width: 920px;
+    float: left;
+}
+
+.yellowrectangle3 {
+    background-color: yellow;
+    height: 100px;
+    width: 875px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yellowbox3 {
+    background-color: yellow;
+    height: 400px;
+    width: 278px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.content4 {
+    background-color: red;
+    height: 515px;
+    width: 920px;
+    float: left;
+}
+
+.yellowrectangle4 {
+    background-color: yellow;
+    height: 100px;
+    width: 875px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yellowbox4big {
+    background-color: yellow;
+    height: 350px;
+    width: 558px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yellowbox4small {
+    background-color: yellow;
+    height: 278px;
+    width: 297px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: blue;
+    height: 100px;
+    width: 920px;
+    float: left;
+}
