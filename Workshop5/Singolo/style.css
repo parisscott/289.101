@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+h1 {
+    color: #666d89
+}
+
+p {
+    color: #666d89
+}
+
 div {
     outline: 1px solid lime;
 }
@@ -32,7 +40,7 @@ body {
     margin-top: 40px;
     font-size: 0.75rem;
     float: right;
-    color: #4v4e61
+    color: #4b4e61
 }
 
 .links a {
@@ -42,6 +50,62 @@ body {
     margin-right: 10px;
 }
 
+.links a: hover {
+    color: #f06c64;
+}
+
 .salmon {
-    color: #f06c64
+    color: #f06c64;
+}
+
+.banner {
+    background-color: #f06c64;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 780px;
+    width: 90%;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: green;
+    }
+}
+
+.container {
+    background-color: #f2f2f2;
+    height: 500px;
+}
+
+.subcontainer {
+    background-color: #f2f2f2;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph1 {
+    font-size: 1.2rem;
+}
+
+.container2 {
+    background-color: #f2f2f2;
+    height: 350px;
+}
+
+.iconcontainer1 {
+    background-color: #f2f2f2;
+    height: 100px;
+    width: 100px;
+    float:left;
+    margin: 0px;
+}
+
+.icon1 img {
+    max-width: 80px;
+    width: 90%;
+}
 }
