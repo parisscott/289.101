@@ -86,7 +86,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    max-width: 950px;
+    max-width: 1020px;
 }
 
 .paragraph1 {
@@ -95,11 +95,11 @@ body {
 
 .container2 {
     background-color: #f2f2f2;
-    height: 450px;
+    height: 475px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    max-width: 950px;
+    max-width: 1020px;
 }
 
 .column {
@@ -113,7 +113,7 @@ body {
 .portfoliocontainer {
     background-color: #2D303A;
     height: 820px;
-    max-width: 950px;
+    max-width: 1020px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
@@ -123,7 +123,7 @@ body {
     background-color: #2D303A;
     margin-left: auto;
     margin-right: auto;
-    max-width: 950px;
+    max-width: 1020px;
 }
 
 .links2 {
@@ -143,9 +143,66 @@ body {
 .white {
     color: #ffffff;
 }
-
+    
 .content2 {
     background-color: 2D303A;
-    height: 500px;
-    width: 950px;
-   
+    height: 775px;
+    width: 1020px;
+    float: left;
+}
+
+.yellowbox2 {
+    background-color: yellow;
+    height: 183px;
+    width: 213px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+.container3 {
+    background-color: #f2f2f2;
+    height: 650px;
+    width: 1020px;
+    float: left;
+}
+
+.yellowbox3 {
+    background-color: #f2f2f2;
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.writing3 {
+    background-color: #f2f2f2;
+    height: 170px;
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+}
+
+.container4 {
+    background-color: salmon;
+    height: 650px;
+    width: 1020px;
+    float: left;
+}
+
+.fontcolor {
+    color: #f0d8d9
+}
+
+.container44 {
+    height: 650px;
+    width: 975px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container444 {
+    height: 360px;
+    width: 620px;
+}
