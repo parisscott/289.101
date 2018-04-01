@@ -195,14 +195,43 @@ body {
     color: #f0d8d9
 }
 
-.container44 {
-    height: 650px;
-    width: 975px;
-    margin-left: 20px;
-    margin-right: 20px;
+.content4 {
+    background-color: salmon;
+    height: 580px;
+    width: 1020px;
+    float: left;
 }
 
-.container444 {
-    height: 360px;
+.yellowrectangle4 {
+    background-color: salmon;
+    height: 150px;
+    width: 980px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yellowbox4big {
+    background-color: salmon;
+    height: 362px;
     width: 620px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yellowbox4small {
+    background-color: salmon;;
+    height: 278px;
+    width: 297px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yellowbox4small2 {
+    background-color: salmon;
+    height: 40px;
+    width: 295px;
+    float: left;
 }
