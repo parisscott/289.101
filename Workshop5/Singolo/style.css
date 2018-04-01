@@ -235,3 +235,10 @@ body {
     width: 295px;
     float: left;
 }
+
+.footer {
+    background-color: #2d303a
+    height: 200px;
+    width: 1020px;
+    margin-left: 330px;
+}
