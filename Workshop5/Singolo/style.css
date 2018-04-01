@@ -78,14 +78,15 @@ body {
 
 .container {
     background-color: #f2f2f2;
-    height: 500px;
+    height: 400px;
+    width: 90%;
 }
 
 .subcontainer {
     background-color: #f2f2f2;
-    max-width: 940px;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
 
 .paragraph1 {
@@ -94,16 +95,25 @@ body {
 
 .container2 {
     background-color: #f2f2f2;
-    width: 940px;
-    height: 500px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
 
 .column {
     background-color: #f2f2f2;
-    max-width: 313px;
     margin-left: auto;
     margin-right: auto;
+    width: 350px;
     float: left;
+}
+
+.portfolioarea {
+    background-color: #2D303A;
+    height: 500px;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
