@@ -79,7 +79,6 @@ body {
 .container {
     background-color: #f2f2f2;
     height: 503px;
-    width: 1020px;
 }
 
 .subcontainer {
@@ -87,6 +86,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    max-width: 950px;
 }
 
 .paragraph1 {
@@ -95,15 +95,16 @@ body {
 
 .container2 {
     background-color: #f2f2f2;
-    height: 300px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    max-width: 950px;
 }
 
 .column {
     background-color: #f2f2f2;
-    margin-left: auto;
+    margin-left: 100px;;
     margin-right: auto;
     width: 350px;
     float: left;
@@ -112,25 +113,22 @@ body {
 .portfoliocontainer {
     background-color: #2D303A;
     height: 820px;
-    max-width: 1020px;
+    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    float: left;
+    margin-top: 70px;
 }
 
 .subcontainer2 {
     background-color: #2D303A;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    max-width: 950px;
 }
 
 .links2 {
     margin-top: 40px;
     font-size: 0.75rem;
-    float: left;
-    color: #666d89
     float: left;
 }
 
@@ -146,16 +144,4 @@ body {
     color: #ffffff;
 }
 
-.yellowcontainer {
-    height: 820px;
-    max-width: 1020px;
-    width: 90%;
-    float: left;
-}
-.yellowbox2 img {
-    height: 175px;
-    width: 209px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 20px;
-}
+
