@@ -1,5 +1,5 @@
 body {
-   font-family: 'Gentium Basic', serif;
+   font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
@@ -110,7 +110,7 @@ div {
     float: left;
     margin-top: 20px;
     margin-left: 20px;
-    text-align: center
+    text-align: left;
 }
 
 .shopdesign {
@@ -208,13 +208,63 @@ div {
     float: left;
     margin-top: 20px;
     margin-left: 20px;
-    text-align: center
+    text-align: left;
 }
 
-.whoarewe {
-    width: 600px;
-    text-align: left;
+.blackcontainer {
+    background-color: black;
+    width: 1160px;
+    height: 560px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;    
+}
+
+.blackcontainerleft {
+    background-color: green;
+    width: 50%;
+}
+
+.textcontainer1 {
+    background-color: black;
+    width: 550px;
+    height: 90px;
     float: left;
     margin-top: 20px;
-    
+    margin-left: 20px;
+    text-align: left 
+}
+
+.textcontainer2 {
+    background-color: black;
+    width: 550px;
+    height: 220px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+    text-align: left 
+}
+
+.textcontainer3 {
+    background-color: black;
+    width: 550px;
+    height: 90px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left 
+}
+
+.blackcontainerright {
+    background-color: black;
+    width: 50%;
+}
+
+.blackcontainerphoto {
+    background-color: yellow;
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 830px;
+    margin-right: 20px;
 }
