@@ -1,3 +1,14 @@
+h2 {
+    color: black;
+    font-family: roboto;
+}
+
+p {
+    color: grey;
+    font-family: roboto;
+}
+
+
 div {
     outline: 3px solid black;
 }
@@ -10,7 +21,7 @@ div {
 
 .header1 {
     background-color: blue;
-    height: 210px;
+    height: 800px;
     width: 1200px;
     float: left;
 }
@@ -27,6 +38,7 @@ div {
 .links {
     margin-top: 10px;
     font-size: 1.2rem;
+    font-family: roboto;
     float: left;
     color: black;
 }
@@ -46,6 +58,7 @@ div {
     margin-top: 10px;
     margin-right: 0px;
     font-size: 1.2rem;
+    font-family: roboto;
     float: right;
     color: black;
 }
@@ -70,6 +83,7 @@ div {
     margin-top: 20px;
     margin-left: 20px;
     font-size: 2.8rem;
+    font-family: roboto;
 }
 
 .rightmenu {
@@ -84,6 +98,15 @@ div {
 .catchphrase {
     background-color: yellow;
     height: 100px;
+    width: 1160px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.shopdesign {
+    background-color: yellow;
+    height: 570px;
     width: 1160px;
     float: left;
     margin-top: 20px;
