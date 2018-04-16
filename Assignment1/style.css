@@ -3,6 +3,11 @@ h2 {
     font-family: sans-serif;
 }
 
+h3 {
+    font-family: sans-serif
+    color: grey;
+}
+
 p {
     color: grey;
     font-family: sans-serif;
@@ -37,7 +42,7 @@ div {
 
 .links {
     margin-top: 10px;
-    font-size: 1.2rem;
+    font-size: 0.75rem;
     font-family: sans-serif;
     float: left;
     color: black;
@@ -57,7 +62,7 @@ div {
 .links1 {
     margin-top: 10px;
     margin-right: 0px;
-    font-size: 1.2rem;
+    font-size: 0.75rem;
     font-family: sans-serif;
     float: right;
     color: black;
@@ -73,7 +78,6 @@ div {
 .links1 a: hover {
     color: #f06c64;
 }
-
 
 .chaos {
     background-color: white;
@@ -106,7 +110,7 @@ div {
 
 .shopdesign {
     background-color: white;
-    height: 570px;
+    height: 600px;
     width: 1160px;
     float: left;
     margin-top: 20px;
@@ -179,44 +183,10 @@ div {
     margin-left: 20px;
 }
 
-.content2 {
-    background-color: yellow;
-    min-height: 442px;
-    width: 1200px;
-    float: left;    
-}
-.leftcontent{
-    float:left;
-    width: 70%;
-}
-.aboutbox {
-    background-color: white ;
-    height: 70px;
-    width:100%;
+.content2line {
+    background-color: black;
+    height: 3px;
+    width: 1180px;
     float: left;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.subtitle {
-    background-color: white;
-    height: 170px;
-    width: 200px;
-    margin-top: 250px;
-    margin-left: 20px;
-    font-family: sans-serif;
-        float:left;
-}
-.abouttext{
-    margin-top: 250px;
-    float:left;
-    width:400px;
-    background-color: green;
-    height:170px;
-}
-.aboutphoto {
-    background-color: red;
-    height: 300px;
-    width: 30%;
-    float: right;
+    margin-left: 250px;
 }
