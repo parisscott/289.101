@@ -36,7 +36,7 @@ div {
 .leftmenu {
     background-color: white;
     height: 50px;
-    width: 484px;
+    width: 400px;
     float: left;
     margin-top: 20px;
     margin-left: 20px;
@@ -91,14 +91,14 @@ div {
     width: 155px;
     float: left;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 4rem;
 }
 
 .rightmenu {
     background-color: white;
     height: 50px;
-    width: 200px;
+    width: 400px;
     float: right;
     margin-top: 20px;
     margin-right: 20px;
