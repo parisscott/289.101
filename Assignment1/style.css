@@ -28,7 +28,7 @@ div {
 
 .header1 {
     background-color: white;
-    height: 800px;
+    height: 80px;
     width: 1200px;
     float: left;
 }
@@ -57,11 +57,7 @@ div {
 .links a:hover{
     color: pink;
 }
-.links a: active{
-    color: red;
-}
-
-.links a: visited{
+.links a:active{
     color: red;
 }
 
@@ -81,12 +77,12 @@ div {
 .links1 a:hover{
     color: pink;
 }
-.links1 a: active{
+.links1 a:active{
     color: red;
 }
 
-.links1 a: visited{
-    color: red;
+.links1 a:visited{
+    color: grey;
 }
 
 .chaos {
@@ -167,7 +163,7 @@ div {
     height: 380px;
     width: 275px;
     float: left;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
 }
 
@@ -204,4 +200,21 @@ div {
     width: 1180px;
     float: left;
     margin-left: 250px;
+}
+
+.lookbook {
+    background-color: white;
+    width: 1160px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center
+}
+
+.whoarewe {
+    width: 600px;
+    text-align: left;
+    float: left;
+    margin-top: 20px;
+    
 }
