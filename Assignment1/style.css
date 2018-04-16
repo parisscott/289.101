@@ -1,16 +1,17 @@
+body {
+   font-family: 'Gentium Basic', serif;
+}
+
 h2 {
     color: black;
-    font-family: sans-serif;
 }
 
 h3 {
-    font-family: sans-serif
     color: grey;
 }
 
 p {
     color: grey;
-    font-family: sans-serif;
 }
 
 
@@ -22,6 +23,7 @@ div {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center
 }
 
 .header1 {
@@ -42,41 +44,49 @@ div {
 
 .links {
     margin-top: 10px;
-    font-size: 0.75rem;
-    font-family: sans-serif;
+    font-size: 1rem;
     float: left;
     color: black;
 }
 
-.links a {
-    color: black;
+.links a{
     text-decoration: none;
-    margin-left: 0px;
-    margin-right: 10px;
+    color: black; 
 }
 
-.links a: hover {
-    color: #f06c64;
+.links a:hover{
+    color: pink;
+}
+.links a: active{
+    color: red;
+}
+
+.links a: visited{
+    color: red;
 }
 
 .links1 {
     margin-top: 10px;
     margin-right: 0px;
-    font-size: 0.75rem;
-    font-family: sans-serif;
+    font-size: 1rem;
     float: right;
     color: black;
 }
 
-.links1 a {
-    color: black;
+.links1 a{
     text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
+    color: black; 
 }
 
-.links1 a: hover {
-    color: #f06c64;
+.links1 a:hover{
+    color: pink;
+}
+.links1 a: active{
+    color: red;
+}
+
+.links1 a: visited{
+    color: red;
 }
 
 .chaos {
@@ -87,7 +97,6 @@ div {
     margin-top: 20px;
     margin-left: 20px;
     font-size: 2.8rem;
-    font-family: sans-serif;
 }
 
 .rightmenu {
@@ -101,11 +110,11 @@ div {
 
 .catchphrase {
     background-color: white;
-    height: 100px;
     width: 1160px;
     float: left;
     margin-top: 20px;
     margin-left: 20px;
+    text-align: center
 }
 
 .shopdesign {
@@ -123,6 +132,12 @@ div {
     width: 1200px;
     float: left;   
 }
+
+.content1line {
+    background-color: black;
+    width: 1180px;
+    width: 2px;
+}
     
 .content1 {
     background-color: white;
@@ -138,7 +153,7 @@ div {
     float: left;
 }
 
-.wintercollection {
+.lookbook {
     background-color: white;
     height: 50px;
     width: 1160px;
