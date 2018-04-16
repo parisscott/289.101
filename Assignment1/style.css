@@ -18,25 +18,64 @@ div {
 .leftmenu {
     background-color: yellow;
     height: 50px;
-    width: 400px;
+    width: 484px;
     float: left;
     margin-top: 20px;
     margin-left: 20px;
 }
 
+.links {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    float: left;
+    color: black;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.links a: hover {
+    color: #f06c64;
+}
+
+.links1 {
+    margin-top: 10px;
+    margin-right: 0px;
+    font-size: 1.2rem;
+    float: right;
+    color: black;
+}
+
+.links1 a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.links1 a: hover {
+    color: #f06c64;
+}
+
+
 .chaos {
     background-color: yellow;
     height: 50px;
-    width: 320px;
+    width: 152px;
     float: left;
     margin-top: 20px;
     margin-left: 20px;
+    font-size: 2.8rem;
 }
 
 .rightmenu {
     background-color: yellow;
     height: 50px;
-    width: 400px;
+    width: 484px;
     float: left;
     margin-top: 20px;
     margin-left: 20px;
