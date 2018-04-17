@@ -81,10 +81,10 @@ div {
 }
 
 .links1 a:hover{
-    color: pink;
+    color: #5e83a5;
 }
 .links1 a:active{
-    color: red;
+    color: #27374c;
 }
 
 .links1 a:visited{
