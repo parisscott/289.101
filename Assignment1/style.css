@@ -1,9 +1,10 @@
 body {
    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
 }
 
 h2 {
-    color: black;
+    color: white;
 }
 
 h3 {
@@ -16,7 +17,7 @@ p {
 
 
 div {
-    outline: 0px solid black;
+    outline: 0px solid red;
 }
 
 .container {
@@ -25,16 +26,22 @@ div {
     margin-right: auto;
     text-align: center
 }
-
+.chaos {
+    color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 4rem;
+}
 .header1 {
-    background-color: white;
+    background-color: black;
     height: 80px;
     width: 1200px;
     float: left;
 }
 
 .leftmenu {
-    background-color: white;
+    background-color: black;
     height: 50px;
     width: 400px;
     float: left;
@@ -46,19 +53,19 @@ div {
     margin-top: 10px;
     font-size: 1rem;
     float: left;
-    color: black;
+    color: white;
 }
 
 .links a{
     text-decoration: none;
-    color: black; 
+    color: white; 
 }
 
 .links a:hover{
-    color: pink;
+    color: #5e83a5;
 }
 .links a:active{
-    color: red;
+    color: #27374c;
 }
 
 .links1 {
@@ -66,12 +73,12 @@ div {
     margin-right: 0px;
     font-size: 1rem;
     float: right;
-    color: black;
+    color: white;
 }
 
 .links1 a{
     text-decoration: none;
-    color: black; 
+    color: white; 
 }
 
 .links1 a:hover{
@@ -85,18 +92,8 @@ div {
     color: grey;
 }
 
-.chaos {
-    background-color: white;
-    height: 0px;
-    width: 155px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 50px;
-    font-size: 4rem;
-}
-
 .rightmenu {
-    background-color: white;
+    background-color: black;
     height: 50px;
     width: 400px;
     float: right;
@@ -105,7 +102,7 @@ div {
 }
 
 .catchphrase {
-    background-color: white;
+    background-color: black;
     width: 1160px;
     float: left;
     margin-top: 20px;
@@ -114,7 +111,7 @@ div {
 }
 
 .shopdesign {
-    background-color: white;
+    background-color: black;
     height: 600px;
     width: 1160px;
     float: left;
@@ -123,34 +120,34 @@ div {
 }
 
 .header2 {
-    background-color: white;
+    background-color: black;
     height: 90px;
     width: 1200px;
     float: left;   
 }
 
 .content1line {
-    background-color: black;
+    background-color: white;
     width: 1180px;
     width: 2px;
 }
     
 .content1 {
-    background-color: white;
+    background-color: black;
     height: 1050px;
     width: 1200px;
     float: left;
 }
 
 .header3 {
-    background-color: white;
+    background-color: black;
     height: 90px;
     width: 1200px;
     float: left;
 }
 
 .lookbook {
-    background-color: white;
+    background-color: black;
     height: 50px;
     width: 1160px;
     float: left;
@@ -159,7 +156,7 @@ div {
 }
 
 .photos1 {
-    background-color: white;
+    background-color: black;
     height: 380px;
     width: 275px;
     float: left;
@@ -168,7 +165,7 @@ div {
 }
 
 .description1 {
-    background-color: white;
+    background-color: black;
     height: 50px;
     width: 275px;
     float: left;
@@ -177,7 +174,7 @@ div {
 }
 
 .photos2 {
-    background-color: white;
+    background-color: black;
     height: 380px;
     width: 275px;
     float: left;
@@ -186,7 +183,7 @@ div {
 }
 
 .description2 {
-    background-color: white;
+    background-color: black;
     height: 50px;
     width: 275px;
     float: left;
@@ -203,7 +200,7 @@ div {
 }
 
 .lookbook {
-    background-color: white;
+    background-color: black;
     width: 1160px;
     float: left;
     margin-top: 20px;
