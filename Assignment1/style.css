@@ -224,8 +224,7 @@ div {
     width: 550px;
     height: 90px;
     float: left;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 30px;
     text-align: left 
 }
 
@@ -235,7 +234,6 @@ div {
     height: 220px;
     float: left;
     margin-top: 80px;
-    margin-left: 20px;
     text-align: left 
 }
 
@@ -245,7 +243,6 @@ div {
     height: 90px;
     float: left;
     margin-top: 20px;
-    margin-left: 20px;
     text-align: left 
 }
 
@@ -255,9 +252,9 @@ div {
 }
 
 .blackcontainerphoto {
-    background-color: yellow;
-    width: 300px;
-    height: 400px;
+    background-color: black;
+    width: 350px;
+    height: 480px;
     margin-top: 50px;
     margin-left: 830px;
     margin-right: 20px;
@@ -301,13 +298,12 @@ div {
 }
 
 .cataloguecontainer {
-    background-color: green;
-    height: 700px;
+    background-color: black;
     float: left;
 }
 
 .catalogueportrait {
-    background-color: yellow;
+    background-color: black;
     height: 385px;
     width: 284px;
     float: left;
@@ -316,10 +312,21 @@ div {
 }
 
 .cataloguelandscape {
-    background-color: yellow;
+    background-color: black;
     height: 385px;
     width: 549px;
     float: left;
     margin-top: 40px;
-    margin-left: 20px
+    margin-left: 30px
 }
+
+.cataloguetext {
+    background-color: black;
+    height: 385px;
+    width: 650px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: left;
+}
+
