@@ -27,12 +27,11 @@ div {
     text-align: center
 }
 .chaos {
-    color: white;
-    float: left;
-    margin-top: 20px;
-    margin-left: 50px;
-    font-size: 4rem;
+    background-color:black;
+    margin-top: 30px;
+    text-align: center
 }
+
 .header1 {
     background-color: black;
     height: 80px;
@@ -99,6 +98,12 @@ div {
     float: right;
     margin-top: 20px;
     margin-right: 20px;
+}
+
+.catchphraseline {
+    background-color: grey;
+    width: 1180px;
+    height: 2px;
 }
 
 .catchphrase {
@@ -191,14 +196,6 @@ div {
     margin-left: 20px;
 }
 
-.content2line {
-    background-color: black;
-    height: 3px;
-    width: 1180px;
-    float: left;
-    margin-left: 250px;
-}
-
 .lookbook {
     background-color: black;
     width: 1160px;
@@ -264,4 +261,41 @@ div {
     margin-top: 50px;
     margin-left: 830px;
     margin-right: 20px;
+}
+
+.contact {
+    background-color: black;
+    height: 50px;
+    width: 1160px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.contactcontainer {
+    background-color: black;
+    height: 600px;
+    width: 1180px;
+    float: left;
+    margin-top: 30px;
+}
+
+.icons {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.iconinformation {
+    background-color: black;
+    height: 50px;
+    width: 1060px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
 }
