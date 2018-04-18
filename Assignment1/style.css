@@ -67,6 +67,10 @@ div {
     color: #27374c;
 }
 
+.links a:visited{
+    color: grey;
+}
+
 .links1 {
     margin-top: 10px;
     margin-right: 0px;
@@ -83,6 +87,7 @@ div {
 .links1 a:hover{
     color: #5e83a5;
 }
+
 .links1 a:active{
     color: #27374c;
 }
@@ -132,16 +137,9 @@ div {
 }
 
 .content1line {
-    background-color: white;
+    background-color: grey;
     width: 1180px;
     width: 2px;
-}
-    
-.content1 {
-    background-color: black;
-    height: 1050px;
-    width: 1200px;
-    float: left;
 }
 
 .header3 {
@@ -149,15 +147,6 @@ div {
     height: 90px;
     width: 1200px;
     float: left;
-}
-
-.lookbook {
-    background-color: black;
-    height: 50px;
-    width: 1160px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 20px;
 }
 
 .photos1 {
@@ -329,3 +318,51 @@ div {
     margin-left: 20px;
     text-align: left;
 }
+
+.signup {
+    background-color: yellow;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.content1 {
+    background-color: black;
+    height: 1050px;
+    width: 1200px;
+    float: left;
+}
+
+.signuptext {
+    background-color: black;
+    height: 19px;
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: left;
+    float: left;
+}
+
+.signuptext1 {
+    background-color: black;
+    height: 19px;
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+    float: left;
+}
+
+.button {
+    border: none;
+    color: #e2c0b4;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    height: 19px;
+    width: 70px;
+    float: left;
+    margin-top: 86px;
+    margin-left: 30px;
+}
+
