@@ -354,8 +354,9 @@ div {
 }
 
 .button {
+    background-color: #e2c0b4;
     border: none;
-    color: #e2c0b4;
+    color: white;
     text-align: center;
     font-size: 15px;
     cursor: pointer;
