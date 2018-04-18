@@ -261,8 +261,8 @@ div {
 
 .contactcontainer {
     background-color: black;
-    height: 600px;
     width: 1180px;
+    height: 300px;
     float: left;
     margin-top: 30px;
 }
@@ -328,7 +328,6 @@ div {
 
 .content1 {
     background-color: black;
-    height: 1050px;
     width: 1200px;
     float: left;
 }
@@ -367,3 +366,12 @@ div {
     margin-left: 30px;
 }
 
+.signupphoto {
+    height: 85px;
+    width: 700px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #e2c0b4
+        
+}
