@@ -4,7 +4,7 @@ body {
 
 .blue {
     background-color: cornflowerblue;
-    height: 50px;
+    height: 100px;
 }
 
 .green {
@@ -19,5 +19,40 @@ body {
 
 .maroon {
     background-color: maroon;
-    height: 400px;
+    height: 600px;
+}
+
+body {
+/* bacgkround-color: red;*/
+}
+
+/* sm devices */
+@media (min-width: 576px) {
+   
+}
+
+/* md devices */
+@media (min-width: 768px) {
+    .orange {
+        width: 388.7px;
+        float: left;
+    }
+    .maroon {
+        width: 388.7px;
+        float: right;
+    }
+
+}
+
+/* lg devices */
+@media (min-width: 992px) {
+    
+    .maroon {
+        float: left;
+    }
+}
+
+/* xl devices */
+@media (min-width: 1200px) {
+    
 }
