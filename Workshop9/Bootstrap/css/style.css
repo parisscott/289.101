@@ -2,3 +2,22 @@ body {
 /* bacgkround-color: red;*/
 }
 
+.blue {
+    background-color: cornflowerblue;
+    height: 50px;
+}
+
+.green {
+    background-color: yellowgreen;
+    height: 150px;
+}
+
+.orange {
+    background-color: orange;
+    height: 100px;
+}
+
+.grey {
+    background-color: gainsboro;
+    height: 50px;
+}
