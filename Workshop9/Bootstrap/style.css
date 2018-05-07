@@ -1,0 +1,23 @@
+body {
+/* bacgkround-color: red;*/
+}
+
+.blue {
+    background-color: cornflowerblue;
+    height: 50px;
+}
+
+.green {
+    background-color: yellowgreen;
+    height: 100px;
+}
+
+.orange {
+    background-color: orange;
+    height: 600px;
+}
+
+.maroon {
+    background-color: maroon;
+    height: 400px;
+}
