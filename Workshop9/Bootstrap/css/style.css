@@ -21,3 +21,35 @@ body {
     background-color: gainsboro;
     height: 50px;
 }
+
+/* sm devices */
+@media (min-width: 576px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* md devices */
+@media (min-width: 768px) {
+    body {
+        background-color: orange;
+    }
+    
+    .grey {
+        height: 150px;
+    }
+}
+
+/* lg devices */
+@media (min-width: 992px) {
+    body {
+        backgroumd-color: green;
+    }
+}
+
+/* xl devices */
+@media (min-width: 1200px) {
+    body {
+        background-color: blue;
+    }
+}
