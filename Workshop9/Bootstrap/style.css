@@ -14,12 +14,12 @@ body {
 
 .orange {
     background-color: orange;
-    height: 600px;
+    height: 500px;
 }
 
 .maroon {
     background-color: maroon;
-    height: 600px;
+    height: 500px;
 }
 
 body {
@@ -28,27 +28,46 @@ body {
 
 /* sm devices */
 @media (min-width: 576px) {
-   
+    .orange {
+        height: 500px;
+    }
+    .maroon {
+        height: 300px;
+    }
 }
 
 /* md devices */
 @media (min-width: 768px) {
     .orange {
-        width: 388.7px;
-        float: left;
+        width: 384px;
+        height: 500px;
     }
     .maroon {
-        width: 388.7px;
-        float: right;
+        width: 384px;
+       height: 500px;
     }
-
+    
+    .green {
+        height: 200px;
+    }
 }
 
 /* lg devices */
 @media (min-width: 992px) {
-    
+    .blue {
+        height: 60px;
+    }
+    .green {
+        width: 248px;
+        height: 800px;
+    }
+    .orange {
+        width: 496px;
+        height: 800px;
+    }
     .maroon {
-        float: left;
+        width: 248px;
+        height: 800px;
     }
 }
 
