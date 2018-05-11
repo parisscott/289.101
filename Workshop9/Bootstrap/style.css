@@ -14,7 +14,7 @@ body {
 
 .orange {
     background-color: orange;
-    height: 500px;
+    height: 575px;
 }
 
 .maroon {
@@ -22,33 +22,74 @@ body {
     height: 500px;
 }
 
+.grey {
+    background-color: lightgray;
+    height: 165px;
+    width: 165px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 body {
 /* bacgkround-color: red;*/
 }
 
-/* sm devices */
+/* col devices */
 @media (min-width: 576px) {
     .orange {
-        height: 500px;
+        height: 780px;
     }
     .maroon {
         height: 300px;
+    }
+    
+    .grey {
+    background-color: lightgray;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+/* sm devices */
+@media (min-width: 576px) {
+    .orange {
+        height: 780px;
+    }
+    .maroon {
+        height: 300px;
+    }
+    
+    .grey {
+    background-color: lightgray;
+    height: 235px;
+    width: 235px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     }
 }
 
 /* md devices */
 @media (min-width: 768px) {
     .orange {
-        width: 384px;
-        height: 500px;
+        height: 510px;
     }
     .maroon {
-        width: 384px;
-       height: 500px;
+        height: 510px;
     }
     
     .green {
         height: 200px;
+    }
+    .grey {
+        height: 145px;
+        width: 145px;
     }
 }
 
@@ -58,20 +99,36 @@ body {
         height: 60px;
     }
     .green {
-        width: 248px;
-        height: 800px;
+        height: 695px;
     }
     .orange {
-        width: 496px;
-        height: 800px;
+        height: 695px;
     }
     .maroon {
-        width: 248px;
-        height: 800px;
+        height: 695px;
+    }
+    .grey {
+        width: 205px;
+        height: 205px;
     }
 }
 
 /* xl devices */
 @media (min-width: 1200px) {
-    
+    .blue {
+        height: 60px;
+    }
+    .green {
+        height: 830px;
+    }
+    .orange {
+        height: 830px;
+    }
+    .maroon {
+        height: 830px;
+    }
+    .grey {
+        width: 250px;
+        height: 250px;
+    }
 }
