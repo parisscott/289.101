@@ -13,30 +13,55 @@ Next, add the following features:
 //declaring variables for puck
 var puck_x = 210;
 var puck_y = 210;
+var speed = 40;
+var puck = document.getElementById('puck');
+var gap = document.getElementById('gap');
 
-document.getElementById('puck').style.top = puck_y + 'px';
-document.getElementById('puck').style.left = puck_x + 'px';
+puck.style.top = puck_y + 'px';
+puck.style.left = puck_x + 'px';
+
+function logCoordinates(){
+    console.log('x=' + puck_x + 'y=' + puck_y)
+}
+
+function checkCollision(){
+    if (puck_x >= 250 && puck_x <= 350 && puck_y >= 150 && puck_y <= 250){
+        gap.style.backgroundColor = 'red';
+    }
+    
+    else{
+        gap.style.backgroundColor = 'white';
+    }
+}
 
 //move left
 document.getElementById('left').addEventListener('click', function(){
-    puck_x -= 50;
-    document.getElementById('puck').style.left = puck_x + 'px'
+    puck_x -= speed;
+    puck.style.left = puck_x + 'px';
+    logCoordinates();
+    checkCollision();
 });
 
 //move right
 document.getElementById('right').addEventListener('click', function(){
-    puck_x += 50;
-    document.getElementById('puck').style.left = puck_x + 'px'
+    puck_x += speed;
+    puck.style.left = puck_x + 'px';
+    logCoordinates();
+    checkCollision();
 });
 
 //move up
 document.getElementById('up').addEventListener('click', function(){
-    puck_x -= 50;
-    document.getElementById('puck').style.top = puck_x + 'px'
+    puck_y -= speed;
+    puck.style.top = puck_y + 'px';
+    logCoordinates();
+    checkCollision();
 });
 
 //move down
 document.getElementById('down').addEventListener('click', function(){
-    puck_x += 50;
-    document.getElementById('puck').style.top = puck_x + 'px'
+    puck_y += speed;
+    puck.style.top = puck_y + 'px';
+    logCoordinates();
+    checkCollision();
 });
