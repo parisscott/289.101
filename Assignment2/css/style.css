@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #222
 }
 
@@ -44,13 +44,13 @@ html, body {
 }
 
 .btn-primary {
-    background-color: #6648b1;
-    border: 1px solid #6648b1;
+    background-color: lightpink;
+    border: 1px solid lightpink;
 }
 
 .btn-primary:hover {
-    background-color: #563d7c;
-    border: 1px solid #563d7c;
+    background-color: #d5d5d5;
+    border: 1px solid #d5d5d5;
 }
 
 .jumbotron {
@@ -229,38 +229,6 @@ hr.light-100 {
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
-}
-
-/*--- Fixed Background Image ---*/
-figure {
-    position: relative;
-    width: 100%;
-    height: 60%;
-    margin: 0!important;
-}
-
-fixed-wrap {
-    clip: rect(0, auto, auto, 0);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#fixed {
-    background-image: url('img/Background_image.jpg');
-    position: fixed;
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    will-change: transform;
 }
 
 /*--- Bootstrap Padding Fix ---*/
