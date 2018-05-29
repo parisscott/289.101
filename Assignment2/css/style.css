@@ -5,6 +5,11 @@ html, body {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     color: #222;
+    scroll-behavior: smooth;
+}
+
+#nav {
+    position: fixed;
 }
 
 h1 {
@@ -21,6 +26,8 @@ h4 {
 
 .navbar {
     padding: .8rem;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar-nav li {
