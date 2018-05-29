@@ -65,6 +65,17 @@ h4 {
     border: 1px solid #d5d5d5;
 }
 
+.btn-outline-primary {
+    background-color: lightpink;
+    border: 1px solid lightpink;
+    color: white;
+}
+
+.btn-outline-primary:hover {
+    background-color: #d5d5d5;
+    border: 1px solid #d5d5d5;
+}
+
 .jumbotron {
     padding: 1rem;
     border-radius: 0;
